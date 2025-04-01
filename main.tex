@@ -88,8 +88,8 @@
 % =============================================================================
 % Slide: Title Page
 % =============================================================================
-\title{LaTeX Workshop}
-\author{Northeastern University Wireless Club - W1KBN}
+\title{\LaTeX\ Workshop}
+\author{Northeastern University Wireless Club - \large\texttt{W1KBN}}
 \date{March 31, 2025}
 
 \begin{document}
@@ -151,7 +151,7 @@
     \begin{itemize}
         \item Understand what \LaTeX{} is and why it matters for students in STEM.
         \item Learn how to start using \LaTeX{} via Overleaf and other tools.
-        \item Walk away ready to create your first LaTeX document — or improve your existing ones.
+        \item Walk away ready to create your first \LaTeX\ document — or improve your existing ones.
     \end{itemize}
     \textbf{Structure:}
     \begin{enumerate}
@@ -167,9 +167,9 @@
 % =============================================================================
 \begin{frame}{What is \LaTeX{}} 
 \begin{itemize}
-    \item A high-quality typesetting system (used for technical and scientific documentation).
-    \item Based on plain text and compiled into professional-looking PDFs.
-    \item Especially powerful for math, code, citations, figures, and complex formatting.
+    \item A \textit{high-quality} typesetting system (used for technical and scientific documentation).
+    \item Based on plain text and compiled into PDFs.
+    \item Especially powerful for math, citations, figures, complex formatting, and \textit{code}.
     \item Common in academia, research, and publishing — and many professors encourage it!
 \end{itemize}
 \end{frame}
@@ -177,17 +177,17 @@
 % =============================================================================
 % Slide: TeX vs LaTeX
 % =============================================================================
-\begin{frame}{TeX vs \LaTeX{}}
+\begin{frame}{\TeX\ vs \LaTeX{}}
     \begin{itemize}
-        \item \textbf{TeX}: A typesetting engine created by Donald Knuth in the late 1970s.
+        \item \textbf{\href{https://tug.org/}{\TeX}}: A typesetting engine created by Donald Knuth in the late 1970s.
         \begin{itemize}
             \item Low-level, extremely powerful, but hard to use directly.
             \item Similar to how Git is the underlying version control tool.
         \end{itemize}
         
-        \item \textbf{\LaTeX{}}: A markup language and set of macros built on top of TeX (by Leslie Lamport).
+        \item \textbf{\href{https://www.latex-project.org/}{\LaTeX}}: A markup language and set of macros built on top of \TeX\ (by Leslie Lamport).
         \begin{itemize}
-            \item Makes TeX accessible, structured, and easier to use for most people.
+            \item Makes \TeX\ accessible, structured, and easier to use for most people.
             \item Similar to how GitHub provides a user-friendly interface to Git.
         \end{itemize}
     \end{itemize}
@@ -197,7 +197,7 @@
 % Slide: Why LaTeX vs Microsoft Word
 % =============================================================================
 \begin{frame}{Why Use \LaTeX{} over Microsoft Word?}
-    \begin{columns}
+    \begin{columns}[t] % <-- Align columns at the top
         \begin{column}{0.48\textwidth}
         \textbf{Microsoft Word (WYSIWYG\\[0.1em] \scriptsize{What You See Is What You Get})}
         \begin{itemize}
@@ -270,7 +270,7 @@
 \begin{frame}[fragile]{Basic Document Structure}
     \begin{columns}[t] % <-- Align columns at the top
         \begin{column}{0.55\textwidth}
-        \textbf{Source (LaTeX Code):}
+        \textbf{Source (\LaTeX\ Code):}
         \begin{minted}[fontsize=\scriptsize]{latex}
 \documentclass{article}
 \begin{document}
@@ -289,12 +289,12 @@ Hello, world!
 
     
 % =============================================================================
-% Slide: Common Environments
+% Slide: Common LaTeX Environments
 % =============================================================================
 \begin{frame}[fragile]{Common LaTeX Environments}
-    \begin{columns} [t] % <-- Align columns at the top
+    \begin{columns}[t] % <-- Align columns at the top
         \begin{column}{0.55\textwidth}
-        \textbf{Source (LaTeX Code):}
+        \textbf{Source (\LaTeX\ Code):}
         \begin{minted}[fontsize=\scriptsize]{latex}
 \begin{itemize}
     \item Bullet points
@@ -343,17 +343,18 @@ Hello, world!
 \end{frame}
 
 % =============================================================================
-% Slide: Helpful Resources
+% Slide: Tools and Resources
 % =============================================================================
-\begin{frame}{Helpful Tools and Resources}
+\begin{frame}{Tools and Resources}
     \begin{itemize}
-        \item \textbf{Overleaf Documentation}: \url{https://www.overleaf.com/learn} — excellent for learning Overleaf itself and LaTeX in general, even if you're working locally.
-        \item \textbf{Detexify}: \url{http://detexify.kirelabs.org} — draw a symbol, and it tells you the LaTeX command for it.
-        \item \textbf{LaTeX Templates}: \url{https://www.latextemplates.com} — get started quickly with professional document layouts.
-        \item \texttt{minted}, \texttt{siunitx}, \texttt{amsmath}, \texttt{circuitikz} — useful packages for syntax highlighting, units, math, and circuit diagrams.
-        \item \textbf{CTAN (Comprehensive TeX Archive Network)}: \url{https://ctan.org} — the main repository for all LaTeX packages. Especially useful when developing locally without Overleaf.
+        \item \textbf{Overleaf Documentation}: \url{https://www.overleaf.com/learn} — excellent for learning both Overleaf and \LaTeX\ fundamentals, even if you compile locally.
+        \item \textbf{\LaTeX\ Templates}: \url{https://www.overleaf.com/latex/templates} or \url{https://www.latextemplates.com}
+        \item \textbf{Cheat Sheets}: \url{https://quickref.me/latex.html} or \url{https://wch.github.io/latexsheet/}
+        \item \textbf{Detexify}: \url{http://detexify.kirelabs.org} — draw a symbol to get its corresponding \LaTeX\ command.
+        \item \texttt{amsmath}, \texttt{siunitx}, \texttt{minted}, \texttt{circuitikz} — essential packages for math, units, syntax highlighting, and circuit diagrams.
+        \item \textbf{CTAN (Comprehensive TeX Archive Network)}: \url{https://ctan.org} — the main repository for all \LaTeX\ packages, especially useful for local development.
     \end{itemize}
-\end{frame}    
+\end{frame}
 
 % =============================================================================
 % Slide: Final Thoughts
