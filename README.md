@@ -12,8 +12,8 @@ The slide deck (`main.tex`) covers:
 - **What is LaTeX?** – An introduction to the typesetting system.
 - **How to Use LaTeX** – Practical guidance on getting started, with a focus on Overleaf.
 - **Comparison with Other Tools** – Explaining how LaTeX differs from tools like Microsoft Word.
-- **Practical Examples** – Live demos and examples showing both code and rendered output.
-- **Tools and Resources** – A curated list of cheat sheets, documentation, and essential packages.
+- **Practical Examples** – Demos (presented in real-time during the workshop) and examples showing both code and rendered output.
+- **Tools and Resources** – A short list of documentation, templates, cheat sheets, and essential packages.
 
 ## 💻 Compiling the Slides Yourself
 
